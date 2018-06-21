@@ -1,0 +1,75 @@
+/* estilo1.css */
+
+body{
+	background-color: lightgrey;
+}
+
+.menu{
+	margin:10px 10px 10px 10px;
+	float:left;
+	width: 98%;
+	height: 70px;
+	background: #696969;
+	text-align: center;
+}
+
+.pagina{
+	float:left;
+	width: 100%;
+	height: 895px;
+	background: #aaa;
+}
+
+.linha{
+	float:left;
+	width: 100%;
+	height: 850px;
+	background: #999;
+}
+
+.coluna{
+	margin: 10px 10px 10px 10px;
+	float: left;
+	width: 609px;
+	height: 805px;
+	background: #696969;
+}
+
+@media only screen and (max-width: 600px) {
+	body{
+		background-color:lightgrey;
+	}
+	
+.menu{
+	margin:10px 10px 10px 10px;
+	float:left;
+	width: 25%;
+	height: 70px;
+	background: #696969;
+	text-align: center;
+}
+
+.pagina{
+	float:left;
+	width: 100%;
+	height: 895px;
+	background: #aaa;
+}
+
+.linha{
+	float:left;
+	width: 100%;
+	height: 850px;
+	background: #999;
+}
+
+.coluna{
+	margin: 10px 10px 10px 10px;
+	float: left;
+	width: 95.5%;
+	height: 450px;
+	background: #696969;
+}
+	
+}
+	
